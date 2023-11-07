@@ -24,7 +24,11 @@ def generate_launch_description():
         #         name='Lights_installer',
         #         output='screen'),
 
-
+        Node(
+            package='drive',
+            executable='computer_vision_node',
+            name='computer_vision_node',
+            output='screen'),
         
 
     ])
